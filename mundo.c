@@ -1,10 +1,3 @@
-/*
- * Trabalho 1 - Programacao 1 
- * Autor: Joao Vitor de Oliveira Souza
- * 
- * Versao 1.0   27/01/23
- * Versao 1.1   31/01/23 
- */
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
