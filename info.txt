@@ -27,4 +27,4 @@
     INTELIGENCIA: o herói que possui esse recebe o dobro de experiência
     Outros poderes podem ser adicionados posteriormente.
 
-    INTEGRAÇÃO NO GITHUB
+    INTEGRAÇÃO NO GITHUB.
