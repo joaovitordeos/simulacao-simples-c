@@ -26,3 +26,5 @@
     ESCUDO: evita metade do dano que toda equipe toma na missão
     INTELIGENCIA: o herói que possui esse recebe o dobro de experiência
     Outros poderes podem ser adicionados posteriormente.
+
+    INTEGRAÇÃO NO GITHUB
