@@ -2,6 +2,7 @@
 
     Linguagem: C
     Tipos abstratos de dados usados: Conjunto, Fila e Lista de Eventos Futuros
+    Adaptação do primeiro trabalho da disciplina de programação 1
 
     Objetivo:
 
