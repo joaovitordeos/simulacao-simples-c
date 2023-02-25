@@ -7,59 +7,59 @@
 #include "libconjunto.h"
 
 /* Constantes relacionadas ao mundo. */
-const int FIM_MUNDO = 34944;
-const int INICIO_MUNDO = 0;
-const int TAM_MAX = 20000;
-const int N_HABILIDADES = 10;
-const int N_MISSOES = FIM_MUNDO/100;
+#define FIM_MUNDO 34944
+#define INICIO_MUNDO 0
+#define TAM_MAX 20000
+#define N_HABILIDADES 10
+#define N_MISSOES FIM_MUNDO/100
 
 /* Constantes relacionadas a herois. */
-const int PAC_MAX = 100;
-const int PAC_MIN = 0;
-const int IDD_MIN = 18;
-const int IDD_MAX = 100;
-const int HAB_MIN = 2;
-const int HAB_MAX = 5;
-const int HP_INICIAL = 100;
-const int HP_MIN = 0;
+#define PAC_MAX 100
+#define PAC_MIN 0
+#define IDD_MIN 18
+#define IDD_MAX 100
+#define HAB_MIN 2
+#define HAB_MAX 5
+#define HP_INICIAL 100
+#define HP_MIN 0
 
 /* Constantes relacionadas aos locais */
-const int CAP_MAX = 30;
-const int CAP_MIN = 5;
+#define CAP_MAX 30
+#define CAP_MIN 5
 
 /* Constantes relacionadas a hospitais  */
-const int LEITO_MAX = N_HABILIDADES/2;
-const int LEITO_MIN = 1;
-const int HP_TAX_MAX = 10;
-const int HP_TAX_MIN = 5;
+#define LEITO_MAX N_HABILIDADES/2
+#define LEITO_MIN 1
+#define HP_TAX_MAX 10
+#define HP_TAX_MIN 5
 
 /* Constantes do evento CHEGADA. */
-const int PCHG_MIN = 0;
-const int PCHG_MAX = 96*7;
-const int MIN_PERM = 1;
+#define PCHG_MIN 0
+#define PCHG_MAX 96*7
+#define MIN_PERM 1
 
 /* Constantes do evento SAIDA */
-const int VEL_MIN = 0;
-const int VEL_BASE = 100;
-const int VEL_PERDA = 40;
+#define VEL_MIN 0
+#define VEL_BASE 100
+#define VEL_PERDA 40
 
 /* Constantes do evento MISSAO */
-const int REQ_MAX = 6;
-const int REQ_MIN = 3;
-const int DAN_MAX = 10;
-const int DAN_MIN = 0;
-const int XP_MIN = 1;
-const int XP_MAX = 5;
+#define REQ_MAX 6
+#define REQ_MIN 3
+#define DAN_MAX 10
+#define DAN_MIN 0
+#define XP_MIN 1
+#define XP_MAX 5
 
 /* ID de alguns poderes */
-const int CURA = 0;
-const int ESCUDO = 1;
-const int FORCA = 2;
-const int INTELIGENCIA = 3;
+#define CURA 0
+#define ESCUDO 1
+#define FORCA 2
+#define INTELIGENCIA 3
 
 /* CURA */
-const int CURA_MAX = 5;
-const int CURA_MIN = 2;
+#define CURA_MAX 5
+#define CURA_MIN 2
 
 /* ID de cada evento */
 #define CHEGADA 1
@@ -69,9 +69,9 @@ const int CURA_MIN = 2;
 #define FIM 5
 
 /* ID de cada entidade */
-const int HEROI = 1;
-const int VILAO = 2;
-const int CIDADAO = 3;
+#define HEROI 1
+#define VILAO 2
+#define CIDADAO 3
 
 typedef struct _vilao {
     int ID;

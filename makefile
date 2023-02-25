@@ -1,6 +1,6 @@
 # Makefile de exemplo (Manual do GNU Make)
      
-CFLAGS = -Wall -std=c18 -g  # flags de compilacao
+CFLAGS = -Wall -g  # flags de compilacao
 LDFLAGS = -lm
 
 CC = gcc
